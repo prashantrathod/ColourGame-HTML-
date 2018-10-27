@@ -1,0 +1,60 @@
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+.square{
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+}
+
+#container{
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+h1{
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	color: white;
+	background-color: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0; /*could have used padding top and padding bottom seperatley*/
+
+}
+
+#colorDisplay{
+	font-size: 200%;
+}
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+#message{
+	color: black;
+}
+
+.selected{
+	background-color: blue;
+}
+
+button{
+	border: none;
+	background-color: none;
+	text-transform: uppercase;
+	height: 100%;
+	color: steelblue;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: inherit;;
+
+}
